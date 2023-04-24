@@ -1,0 +1,2 @@
+[bandit]
+exclude = add_author.py

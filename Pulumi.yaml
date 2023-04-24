@@ -1,0 +1,5 @@
+name: pulumi-python-s3state
+runtime:
+  name: python
+main: src/
+description: Python Pulumi program that defines S3 state bucket and KMS key

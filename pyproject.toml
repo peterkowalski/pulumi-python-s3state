@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pulumi-python-s3state"
+version = "0.1.0"
+description = "Python Pulumi program that defines S3 state bucket and KMS key"
+authors = ["Piotr Kowalski <piotr.kowalski.it@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pulumi = "^3.0.0"
+pulumi-aws = "^5.0.0"
+protobuf = "3.20.3"
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
